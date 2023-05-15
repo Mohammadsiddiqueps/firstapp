@@ -8,6 +8,7 @@ const Navbar = () => {
 <AppBar>
     <Toolbar>
         <Typography sx={{flexGrow:1}} align='center'>TrialApp</Typography>
+        <Typography>Change</Typography>
          <Button ><Link to={'/Ex2'} style={{color:'white'}}>Ex2</Link></Button>
          <Button><Link to={'/table'} style={{color:'white'}}>Table</Link></Button>
          <Button><Link to={'/view'} style={{color:'white'}}>ViewData</Link></Button>
